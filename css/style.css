@@ -1,12 +1,26 @@
 .header{
     background-color: #d7fae5;
-    margin: 20px;
+    margin: 0;
     padding: 30px 30px 30px 50px;
     background-image: url("../src/preyBackgr.jpg");
-    width: 2100px;
+    -webkit-background-size: 100%;
+    width: 1809px;
     vertical-align: auto;
     filter: blinds(100);
     background-repeat: no-repeat;
+
+}
+
+.ah{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+.h3h{
+    color: white;
 }
 
 /* alatsi-regular - latin */
@@ -29,6 +43,10 @@ body{
     font-family: 'Alatsi';
     font-style: normal;
     font-size: large;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-bottom: 0;
 }
 footer{
     background-color: var(--bgcolor);
@@ -38,8 +56,53 @@ main{
     background-color: var(--bgcolor);
     text-align: center;
     font-size: larger;
-    margin: 160px;
+    margin: 0;
 }
+
+.main1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.wrapper{
+    max-width: 1000px;
+    min-height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+}
+
 .mainIllustration{
     position: center;
 }
+
+.logo{
+    display: flex;
+    flex-basis: 10%;
+}
+
+.logo li{
+    display: inline;
+}
+
+.nav1{
+    display: flex;
+    flex-basis: 90%;
+    justify-content: right;
+}
+
+.nav1 li{
+    display: inline;
+}
+
+.nav1 a{
+    display: inline-block;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+}
+
