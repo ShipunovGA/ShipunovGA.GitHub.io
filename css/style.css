@@ -110,3 +110,38 @@ textarea{
 	resize: none;
 }
 
+.container{
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: auto;
+    padding: 10px;
+    background-color: #7dbfc2;
+    text-align: center;
+}
+
+.pictureSlide{
+    width: fit-content;
+}
+
+.slider{
+    border: 2px solid black;
+    width: 256px;
+    height: 256px;
+    margin: 0;
+}
+
+.sliderLine{
+    display: flex;
+    height: 256px;
+    width: 768px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.block{
+    width: 256 px;
+    height: 500 px;
+    border: 2px solid gray;
+    background-size: cover;
+}
