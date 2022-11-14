@@ -1,126 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Main Page</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<header class="header">
-    <div>
-        <h1>
-            Brilliant Web-Site
-        </h1>
-        <!--
-                <h3 class="h3h">
-                    Oh shit, here we go again!
-                </h3>
-        -->
-    </div>
+    <script src="js/showHeader.js"></script>
 
-    <div class="logo">
-        <a class="ah" href="index.html">
-            <img src="src/logo.jpeg" alt="Logotype" height="129" width="129">
-        </a>
-    </div>
-
-    <nav class="nav1">
-        <ul>
-            <li>
-                <a class="ah" href="index.html">
-                    About me
-                </a>
-            </li>
-            <li>
-                <a class="ah" href="index.html#comps">
-                    My skills
-                </a>
-            </li>
-            <li>
-                <a class="ah" href="pages/summary.html">
-                    My summary
-                </a>
-            </li>
-            <li>
-                <a class="ah" href="pages/portfolio.html">
-                    Portfolio
-                </a>
-            </li>
-            <li>
-                <a class="ah" href="pages/JS.html">
-                    JS task
-                </a>
-            </li>
-            <li>
-                <a class="ah" href="pages/contacts.html">
-                    Contacts
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-</header>
-<main>
-    <section>
-        <div class="wrapper main1">
-            <img class="mainIllustration" src="src/sindri.jpg" alt="Sindri" height="270" width="150">
-            <div class="desc">
-                <h2>Shipunov Gregory</h2>
-                <p>Student, studying programming and math. Love good music, good books and good video-games.</p>
+    <main>
+        <section>
+            <div class="wrapper main1">
+                <img class="mainIllustration" src="src/sindri.jpg" alt="Sindri" height="270" width="150">
+                <div class="desc">
+                    <h2>Shipunov Gregory</h2>
+                    <p>Student, studying programming and math. Love good music, good books and good video-games.</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <a name="comps"></a>
-        <h3>My Skills</h3>
+        </section>
+        <section>
+            <a name="comps"></a>
+            <h3>My Skills</h3>
+            <div>
+                <img src="src/pythonLogo.jpeg" alt="PythonLogo" height="60" width="50">
+                <h4>Python 3</h4>
+            </div>
+            <div>
+                <img src="src/Csharp_Logo.png" alt="PythonLogo" height="50" width="50">
+                <h4>C#</h4>
+            </div>
+            <div>
+                <img src="src/violin.jpg" alt="PythonLogo" height="120" width="80">
+                <h4>Play violin</h4>
+            </div>
+            <div>
+                <img src="src/mSki.jpg" alt="PythonLogo" height="120" width="180">
+                <h4>Go mountain skiing</h4>
+            </div>
+        </section>
+        <section>
+            <h3>My strengths</h3>
+            <ul>
+                <li>Perseverance</li>
+                <li>Love for beauty</li>
+                <li>Insistence</li>
+            </ul>
+            <h3>My life goals</h3>
+            <ol>
+                <li>Be happy and glad about life</li>
+                <li>Travel a lot</li>
+                <li>Earn decent amount of money</li>
+                <li>Be healthy</li>
+            </ol>
+        </section>
+        <section>
+            <h3>Something important</h3>
+            <p>To learn <b>something important</b> click down below:</p>
+            <button onclick="alert('God of War!');">Important</button>
+        </section>
+    </main>
+    <footer>
         <div>
-            <img src="src/pythonLogo.jpeg" alt="PythonLogo" height="60" width="50">
-            <h4>Python 3</h4>
+            &#10084;
+            &#9729;
+            &#9730;
+            &#10065;
         </div>
         <div>
-            <img src="src/Csharp_Logo.png" alt="PythonLogo" height="50" width="50">
-            <h4>C#</h4>
+            This site was created by Grindelf the High.
         </div>
-        <div>
-            <img src="src/violin.jpg" alt="PythonLogo" height="120" width="80">
-            <h4>Play violin</h4>
-        </div>
-        <div>
-            <img src="src/mSki.jpg" alt="PythonLogo" height="120" width="180">
-            <h4>Go mountain skiing</h4>
-        </div>
-    </section>
-    <section>
-        <h3>My strengths</h3>
-        <ul>
-            <li>Perseverance</li>
-            <li>Love for beauty</li>
-            <li>Insistence</li>
-        </ul>
-        <h3>My life goals</h3>
-        <ol>
-            <li>Be happy and glad about life</li>
-            <li>Travel a lot</li>
-            <li>Earn decent amount of money</li>
-            <li>Be healthy</li>
-        </ol>
-    </section>
-    <section>
-        <h3>Something important</h3>
-        <p>To learn <b>something important</b> click down below:</p>
-        <button onclick="alert('God of War!');">Important</button>
-    </section>
-</main>
-<footer>
-    <div>
-        &#10084;
-        &#9729;
-        &#9730;
-        &#10065;
-    </div>
-    <div>
-        This site was created by Grindelf the High.
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>

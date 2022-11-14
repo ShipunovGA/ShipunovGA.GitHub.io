@@ -85,17 +85,17 @@ main{
     display: inline;
 }
 
-.nav1{
+.navigation{
     display: flex;
     flex-basis: 90%;
     justify-content: right;
 }
 
-.nav1 li{
+.navigation li{
     display: inline;
 }
 
-.nav1 a{
+.navigation a{
     display: inline-block;
 }
 
