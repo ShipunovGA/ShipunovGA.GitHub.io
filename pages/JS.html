@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>JS task</title>
@@ -7,138 +8,100 @@
 </head>
 
 <body>
-	<header>
-    <div>
-        <a href="index.html">
-            <img src="src/logo.jpeg" alt="Logotype" height="129" width="129">
-        </a>
-    </div>
-    <div>
-        <h1>
-            First HTML site
-        </h1>
-        <h3>
-            Oh shit, here we go again!
-        </h3>
-    </div>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">
-                    About me
-                </a>
-            </li><li>
-                <a href="index.html#comps">
-                    My skills
-                </a>
-            </li>
-            <li>
-                <a href="pages/summary.html">
-                    My summary
-                </a>
-            </li>
-            <li>
-                <a href="pages/portfolio.html">
-                    Portfolio
-                </a>
-            </li>
-            <li>
-                <a href="pages/JS.html">
-                    JS task
-                </a>
-            </li>
-            <li>
-                <a href="pages/contacts.html">
-                    Contacts
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main>
-	<div class="grid">
-	
-	<form action="">
-		<input type="text">
-		<textarea cols="20" rows="10">
-			
-		</textarea>
-        <fieldset>
-            <legend>Question theme</legend>
-            <label for="theme">
-                <select name="" id="theme">
-                    <option value="job">Job issues</option>
-                    <option value="collab">Collaboration issues</option>
-                    <option value="pers">Personal issues</option>
-                </select>
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Your contacts</legend>
-            <div>
-                <label for="name">Your name: </label>
-                <input type="text" id="name" placeholder="Your brilliant name">
-            </div>
-            <div>
-                <label for="email">Your email adress: </label>
-                <input type="email" id="email" placeholder="Your brilliant email adress">            
-            </div>
-            <div>
-                <label for="telephone">Your tepephone number: </label>
-                <input type="tel" id="telephone" placeholder="Your brilliant telephone">
-            </div>
-        </fieldset>
-        <fieldset class="radioField">
-            <legend>Connect us...</legend>
-            
-            <label for="r_email">
-                via email:
-                <input type="radio" name="comm" id="r_email">
-            </label>
-            <label for="r_tel">
-                via phone:
-                <input type="radio" name="comm" id="r_tel">
-            </label>
-            <label for="r_none">
-                via nothing!
-                <input type="radio" name="comm" id="r_none">
-            </label>
-        </fieldset>
-        <fieldset class="checkField">
-            <legend>Questionaire</legend>
-            <label for="checkb_1">                
-                How do you feel today?
-            </label>
-            <label for="checkb_1">
-                Fine
-                <input type="checkbox" name="question" id="checkb_1">
-            </label>
-            <label for="checkb_2">
-                Not Fine
-                <input type="checkbox" name="question" id="checkb_2">
-            </label>
-            <label for="checkb_2">
-                Extremely fine!
-                <input type="checkbox" name="question" id="checkb_2">
-            </label>
-        </fieldset>
-        <div>
-            <input type="submit" value="Send the request">
-        </div>
-	</form>	
 
-	</div>
-</main>
-<footer>
-    <div>
-        This site was created by Grindelf the High.
-    </div>
-    <div>
-        &#10084;
-        &#9729;
-        &#9730;
-        &#10065;
-    </div>
-</footer>
+    <!-- header: -->
+    <script src="../js/showHeaderForPages.js"></script>
+
+    <main>
+        <div class="grid">
+
+            <form action="">
+                <input type="text">
+                <textarea cols="20" rows="10">
+
+		</textarea>
+                <fieldset>
+                    <legend>Question theme</legend>
+                    <label for="theme">
+                        <select name="" id="theme">
+                            <option value="job">Job issues</option>
+                            <option value="collab">Collaboration issues</option>
+                            <option value="pers">Personal issues</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Your contacts</legend>
+                    <div>
+                        <label for="name">Your name: </label>
+                        <input type="text" id="name" placeholder="Your brilliant name">
+                    </div>
+                    <div>
+                        <label for="email">Your email adress: </label>
+                        <input type="email" id="email" placeholder="Your brilliant email adress">
+                    </div>
+                    <div>
+                        <label for="telephone">Your tepephone number: </label>
+                        <input type="tel" id="telephone" placeholder="Your brilliant telephone">
+                    </div>
+                </fieldset>
+                <fieldset class="radioField">
+                    <legend>Connect us...</legend>
+
+                    <label for="r_email">
+                        via email:
+                        <input type="radio" name="comm" id="r_email">
+                    </label>
+                    <label for="r_tel">
+                        via phone:
+                        <input type="radio" name="comm" id="r_tel">
+                    </label>
+                    <label for="r_none">
+                        via nothing!
+                        <input type="radio" name="comm" id="r_none">
+                    </label>
+                </fieldset>
+                <fieldset class="checkField">
+                    <legend>Questionaire</legend>
+                    <label for="checkb_1">
+                        How do you feel today?
+                    </label>
+                    <label for="checkb_1">
+                        Fine
+                        <input type="checkbox" name="question" id="checkb_1">
+                    </label>
+                    <label for="checkb_2">
+                        Not Fine
+                        <input type="checkbox" name="question" id="checkb_2">
+                    </label>
+                    <label for="checkb_2">
+                        Extremely fine!
+                        <input type="checkbox" name="question" id="checkb_2">
+                    </label>
+                </fieldset>
+                <div>
+                    <input type="submit" value="Send the request">
+                </div>
+            </form>
+
+        </div>
+
+        <div class="item">
+            <h1>Todo</h1>
+            <form class="form">
+                <input id="item" type="text" required>
+            </form>
+            <h2>Task</h2>
+            <ul class="ul"></ul>
+            <button id="button">Clear</button>
+        </div>
+
+        <script src="../js/todoTasker.js"></script>
+    </main>
+    
+    <!-- footer: -->
+    <script src="../js/showFooter.js"></script>
+
 </body>
+
 </html>

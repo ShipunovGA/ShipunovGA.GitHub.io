@@ -8,55 +8,10 @@
 </head>
 
 <body>
-    <header class="header">
-        <div>
-            <a href="../index.html">
-                <img src="../src/logo.jpeg" alt="Logotype" height="129" width="129">
-            </a>
-        </div>
-        <div>
-            <h1>
-                First HTML site
-            </h1>
-            <h3>
-                Oh shit, here we go again!
-            </h3>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">
-                        About me
-                    </a>
-                </li>
-                <li>
-                    <a href="../index.html#comps">
-                        My skills
-                    </a>
-                </li>
-                <li>
-                    <a href="summary.html">
-                        My summary
-                    </a>
-                </li>
-                <li>
-                    <a href="portfolio.html">
-                        Portfolio
-                    </a>
-                </li>
-                <li>
-                    <a href="JS.html">
-                        JS task
-                    </a>
-                </li>
-                <li>
-                    <a href="contacts.html">
-                        Contacts
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    
+    <!-- header: -->
+    <script src="../js/showHeaderForPages.js"></script>
+
     <main>
 
         <div class="container">
@@ -71,18 +26,18 @@
             let offset = 0;
             const sliderLine = document.querySelector('.sliderline')
             document.querySelector('.sliderNext').addEventListener(
-                'click', function(){
-                offset += 256;
-                if (offset > 2048) offset = 0;
-                sliderLine.style.left = -offset + 'px';
-            }
+                'click', function () {
+                    offset += 256;
+                    if (offset > 2048) offset = 0;
+                    sliderLine.style.left = -offset + 'px';
+                }
             )
             document.querySelector('.sliderPrev').addEventListener(
-                'click', function(){
-                offset -= 256;
-                if (offset < 0) offset = 2048;
-                sliderLine.style.left = -offset + 'px';
-            }
+                'click', function () {
+                    offset -= 256;
+                    if (offset < 0) offset = 2048;
+                    sliderLine.style.left = -offset + 'px';
+                }
             )
         </script>
 
@@ -97,11 +52,11 @@
 
         <div class="block"></div>
         <script>
-            var array = ['1.jpg', '2.jpg','3.jpg'];
+            var array = ['1.jpg', '2.jpg', '3.jpg'];
             let block = document.querySelector('.block');
             let i = 0
             block.onclick = change()
-            function change(){
+            function change() {
                 block.style.backgroundImage = 'url(../src/' + array[i] + ')'
                 i++;
                 if (i == array.length) {
@@ -110,17 +65,10 @@
             }
         </script>
     </main>
-    <footer>
-        <div>
-            &#10084;
-            &#9729;
-            &#9730;
-            &#10065;
-        </div>
-        <div>
-            This site was created by Grindelf the High.
-        </div>
-    </footer>
+
+    <!-- footer: -->
+    <script src="../js/showFooter.js"></script>
+
 </body>
 
 </html>

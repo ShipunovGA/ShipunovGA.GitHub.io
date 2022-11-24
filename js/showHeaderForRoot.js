@@ -1,10 +1,3 @@
-// const hder = document.querySelector('.header');
-// fetch('../pagesUtility/header.html')
-// .then(res=>res.text)
-// .then(data=>{
-//     hder.innerHTML=data
-// })
-
 document.write(`
 
     <header class="header" id="headInc">
@@ -35,6 +28,15 @@ document.write(`
                 </li>
                 <li>
                     <a class="ah" href="pages/JS.html">JS task</a>
+                </li>
+                <li>
+                    <a class="ah" href="pages/storage.html">Storage example</a>
+                </li>
+                <li>
+                    <a class="ah" href="pages/galery.html">Galery</a>
+                </li>
+                <li>
+                    <a class="ah" href="pages/diagramms.html">Diagramms</a>
                 </li>
                 <li>
                     <a class="ah" href="pages/contacts.html">Contacts</a>
