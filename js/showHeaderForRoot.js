@@ -21,6 +21,9 @@ document.write(`
                     <a class="ah" href="index.html#comps">My skills</a>
                 </li>
                 <li>
+                    <a class="ah" href="pages/timer.html">TIMER!</a>
+                </li>
+                <li>
                     <a class="ah" href="pages/summary.html">My summary</a>
                 </li>
                 <li>

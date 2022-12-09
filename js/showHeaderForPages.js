@@ -7,8 +7,8 @@ document.write(`
         </div>
 
         <div class="logo">
-            <a class="ah" href="index.html">
-                <img src="src/logo.jpeg" alt="Logotype" height="129" width="129">
+            <a class="ah" href="../index.html">
+                <img src="../src/logo.jpeg" alt="Logotype" height="129" width="129">
             </a>
         </div>
 
@@ -19,6 +19,9 @@ document.write(`
                 </li>
                 <li>
                     <a class="ah" href="../index.html#comps">My skills</a>
+                </li>
+                <li>
+                    <a class="ah" href="timer.html">TIMER!</a>
                 </li>
                 <li>
                     <a class="ah" href="summary.html">My summary</a>
