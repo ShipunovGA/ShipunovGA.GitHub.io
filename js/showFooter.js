@@ -1,5 +1,5 @@
 document.write(`
-    <footer class="footerMain">
+    <footer>
         <div>
             &#10084;
             &#9729;

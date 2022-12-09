@@ -152,12 +152,6 @@ textarea {
     background-size: cover;
 }
 
-.footerMain {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: fit-content;
-}
 
 .summaryTable {
     margin-left: auto;
@@ -179,4 +173,43 @@ body {
 img.socialImg {
     height: 7vh;
     width: 7vh;
+}
+
+section.mySkillsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:antiquewhite;
+}
+
+img.mySkillsImg {
+    height: 15vh;
+    width: 15vh;
+
+}
+
+section.myListsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 0 100px;
+    margin-bottom: 0;
+    bottom: 0;
+}
+
+section.somethingImportant {
+    background-color:antiquewhite;
+}
+
+section.mySlills {
+    background-color:antiquewhite;
 }
