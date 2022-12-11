@@ -2,8 +2,8 @@ document.write(`
 
     <header class="header" id="headInc">
         <div>
-            <h1>Jotunheim library</h1>
-            <h3 class="h3h">The one under the mountain.</h3>
+            <h1>Deep storage of Talos I</h1>
+            <h3 class="h3h">Transtar inc.</h3>
         </div>
 
         <div class="logo">

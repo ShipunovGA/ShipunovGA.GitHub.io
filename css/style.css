@@ -46,7 +46,7 @@ h1 {
 body {
     --bgcolor: #b6d4fe;
     --padding: 20px 20px 20px 20px;
-    font-family: 'Alatsi';
+    font-family: 'Alatsi', serif;
     font-style: normal;
     font-size: large;
     display: flex;
@@ -116,38 +116,41 @@ textarea {
     resize: none;
 }
 
-.container {
+div.container {
     max-width: fit-content;
     max-height: fit-content;
-    margin: auto;
-    padding: 10px;
+    margin: 30px auto;
+    padding: 30px;
     background-color: #7dbfc2;
     text-align: center;
+    box-shadow: 1px 1px 6px 3px;
 }
 
 .pictureSlide {
-    width: fit-content;
+    width: 256px;
 }
 
-.slider {
+div.slider {
     border: 2px solid black;
     width: 256px;
     height: 256px;
     margin: 0;
+    overflow: hidden;
 }
 
-.sliderLine {
+div.sliderLine {
     display: flex;
     height: 256px;
     width: 768px;
     position: relative;
     left: 0;
     transition: all ease 1s;
+    background-color: black;
 }
 
 .block {
-    width: 256 px;
-    height: 500 px;
+    width: 256px;
+    height: 500px;
     border: 2px solid gray;
     background-size: cover;
 }
@@ -210,6 +213,6 @@ section.somethingImportant {
     background-color:antiquewhite;
 }
 
-section.mySlills {
+section.mySkills {
     background-color:antiquewhite;
 }
