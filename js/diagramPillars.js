@@ -1,5 +1,5 @@
-const form = document.querySelector(".diagramChangeForm");
-const changeCoefficient = document.getElementById(".changeCoefficient");
+const changeCoefficient = parseInt(document.getElementById(".changeCoefficient"));
+const button = document.querySelector(".submitChangeButton");
 
 
 function updateColumns(updateCoefficient) {
@@ -40,10 +40,9 @@ function updateColumns(updateCoefficient) {
     }
 }
 updateColumns(12);
-console.log("changeCoefficient.value");
-form.addEventListener("submit", function () {
-    /*e.preventDefault();*/
+console.log(changeCoefficient.value);
+button.addEventListener("click", function () {
     console.log("i m here")
     updateColumns(changeCoefficient.value);
-    changeCoefficient.value = " ";
+    changeCoefficient.value = "";
 });

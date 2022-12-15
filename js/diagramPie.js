@@ -14,7 +14,7 @@ for (let i = 0; i < data2.length; i++) {
     const angle = prefAngle + fraction * Math.PI * 2;
     d.beginPath();
     d.moveTo(250, 250);
-    d.arc(250, 200, 100, prefAngle, angle, false);
+    d.arc(250, 230, 150, prefAngle, angle, false);
     d.lineTo(250, 250);
     d.fill();
     d.strokeStyle = "red";

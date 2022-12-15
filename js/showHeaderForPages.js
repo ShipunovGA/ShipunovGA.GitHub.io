@@ -33,9 +33,6 @@ document.write(`
                     <a class="ah" href="JS.html">JS task</a>
                 </li>
                 <li>
-                    <a class="ah" href="storage.html">Storage example</a>
-                </li>
-                <li>
                     <a class="ah" href="galery.html">Galery</a>
                 </li>
                 <li>
