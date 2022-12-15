@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Diagramms</title>
+    <title>Diagrams</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -14,17 +14,21 @@
 
     <main>
         <canvas width="500px" height="500px" id="canvas"></canvas>
-        <script src="../js/diagrammPillars.js"></script>
+        <script src="../js/diagramPillars.js"></script>
         <canvas width="500px" height="500px" id="canvasCircle"></canvas>
-        <script src="../js/diagrammPie.js"></script>
+        <script src="../js/diagramPie.js"></script>
         <section>
             <h3>Enter the change coefficient:</h3>
-            <form class="diagramChageForm">
+            <form class="diagramChangeForm">
+                <label for="changeCoefficient">
+                    Change Coefficient:
+                </label>
                 <input id="changeCoefficient" type="number" required>
+                <button class="submitChangeButton">
+                    Submit!
+                </button>
             </form>
-            <button class="submitChangeButton">
-                Submit!
-            </button>
+
         </section>
     </main>
 

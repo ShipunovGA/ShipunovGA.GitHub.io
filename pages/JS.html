@@ -14,91 +14,94 @@
 
     <main>
         <div class="grid">
+            <fieldset>
+                <legend>Question theme</legend>
+                <label for="theme">
+                    <select name="" id="theme">
+                        <option value="job">Job issues</option>
+                        <option value="collab">Collaboration issues</option>
+                        <option value="pers">Personal issues</option>
+                    </select>
+                </label>
+            </fieldset>
 
-            <form action="">
-                <input type="text">
-                <textarea cols="20" rows="10">
+            <form action="" >
+                <section class="questions">
 
-		</textarea>
-                <fieldset>
-                    <legend>Question theme</legend>
-                    <label for="theme">
-                        <select name="" id="theme">
-                            <option value="job">Job issues</option>
-                            <option value="collab">Collaboration issues</option>
-                            <option value="pers">Personal issues</option>
-                        </select>
-                    </label>
-                </fieldset>
+                <!--<input type="text">
+                <textarea cols="20" rows="10">-->
+
+		<!--</textarea>-->
+
                 <fieldset>
                     <legend>Your contacts</legend>
                     <div>
                         <label for="name">Your name: </label>
-                        <input type="text" id="name" placeholder="Your brilliant name">
+                        <input type="text" id="name" placeholder="Your brilliant name" maxlength="50" minlength="2">
                     </div>
                     <div>
                         <label for="email">Your email adress: </label>
-                        <input type="email" id="email" placeholder="Your brilliant email adress">
+                        <input type="email" id="email" placeholder="Your brilliant email address" required>
                     </div>
                     <div>
-                        <label for="telephone">Your tepephone number: </label>
+                        <label for="telephone">Your telephone number: </label>
                         <input type="tel" id="telephone" placeholder="Your brilliant telephone">
                     </div>
                 </fieldset>
                 <fieldset class="radioField">
-                    <legend>Connect us...</legend>
+                    <legend>How we should connect you?</legend>
 
                     <label for="r_email">
-                        via email:
                         <input type="radio" name="comm" id="r_email">
+                        via email:
                     </label>
                     <label for="r_tel">
-                        via phone:
                         <input type="radio" name="comm" id="r_tel">
+                        via phone:
                     </label>
                     <label for="r_none">
-                        via nothing!
                         <input type="radio" name="comm" id="r_none">
+                        via nothing!
                     </label>
                 </fieldset>
                 <fieldset class="checkField">
-                    <legend>Questionaire</legend>
+                    <legend>How do you feel today?</legend>
                     <label for="checkb_1">
-                        How do you feel today?
-                    </label>
-                    <label for="checkb_1">
-                        Fine
                         <input type="checkbox" name="question" id="checkb_1">
+                        Fine
                     </label>
                     <label for="checkb_2">
+                        <input type="checkbox" name="question" id="checkb_2">
                         Not Fine
-                        <input type="checkbox" name="question" id="checkb_2">
                     </label>
                     <label for="checkb_2">
+                        <input type="checkbox" name="question" id="checkb_3">
                         Extremely fine!
-                        <input type="checkbox" name="question" id="checkb_2">
                     </label>
                 </fieldset>
+                </section>
                 <div>
                     <input type="submit" value="Send the request">
                 </div>
             </form>
 
-        </div>
 
-        <div class="item">
-            <h1>Todo</h1>
-            <form class="form">
-                <input id="item" type="text" required>
-            </form>
-            <h2>Task</h2>
-            <ul class="ul"></ul>
-            <button id="button">Clear</button>
         </div>
+        <fieldset>
+            <div class="item">
+                <h2>TODO list</h2>
+                <form class="form">
+                    <input id="item" type="text" required>
+                </form>
+                <h4>Your Tasks:</h4>
+                <ul class="ul"></ul>
+                <button id="button">Clear</button>
+            </div>
+        </fieldset>
 
         <script src="../js/todoTasker.js"></script>
     </main>
-    
+
     <!-- footer: -->
     <script src="../js/showFooter.js"></script>
 

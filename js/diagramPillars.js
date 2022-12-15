@@ -1,12 +1,13 @@
 const form = document.querySelector(".diagramChangeForm");
-const changeCoefficient = document.querySelector(".changeCoefficient");
+const changeCoefficient = document.getElementById(".changeCoefficient");
 
 
 function updateColumns(updateCoefficient) {
     let data = [46, 35, 68, 50, 43];
-    for (let i; i < data.length; i++) {
+    for (let i = 0; i < data.length; i++) {
         data[i] *= updateCoefficient / 12;
     }
+    console.log(data)
     const canvas = document.getElementById('canvas');
     let canvasContext = canvas.getContext('2d');
     canvasContext.fillStyle = 'pink';
@@ -39,9 +40,10 @@ function updateColumns(updateCoefficient) {
     }
 }
 updateColumns(12);
-console.log(changeCoefficient.value);
-form.addEventListener("submit", function (e) {
-    e.preventDefault();
+console.log("changeCoefficient.value");
+form.addEventListener("submit", function () {
+    /*e.preventDefault();*/
+    console.log("i m here")
     updateColumns(changeCoefficient.value);
     changeCoefficient.value = " ";
 });
